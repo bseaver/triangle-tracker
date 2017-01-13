@@ -11,6 +11,8 @@ $(document).ready(function() {
 
   $("form#triangle").submit(function(event) {
     alert("#submit");
+
+    event.preventDefault();
   });
 
 }); // End JavaScript
